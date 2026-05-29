@@ -1,4 +1,4 @@
-FROM runpod/worker-comfyui:3.3.0-base
+FROM runpod/worker-comfyui:5.8.5-base
 
 # Custom nodes for LTX-2.3 with lip sync
 RUN comfy node install ComfyUI-LTXVideo
